@@ -1,5 +1,6 @@
 <html>
   <head>
+    <link rel = "icon" href = "favicon.ico">
     <link type = "text/css" rel = "stylesheet" href = "https://cdn.jsdelivr.net/gh/HunterBall/Fresh@1.1.1/fresh.min.css">
     <script src = "https://cdn.jsdelivr.net/gh/HunterBall/Fresh@1.1.1/fresh.min.js"></script>
     <style>
@@ -16,80 +17,89 @@
   </head>
   <body>
     <div class = "main">
-      <div class='nav sticky'>
+      <div class = "nav sticky">
         <img class = "icon" src = "logo.png"/>
-        <a class = "title">PROJECT GRFT</a>
-        <a class = "item">Home</a>
-        <a class = "item">Who We Are</a>
-        <a class = "item">Our Members</a>
+        <a class = "title" href = "#"> PROJECT GRFT </a>
+        <a class = "item" href = "#projectDescription"> Who We Are </a>
+        <a class = "item" href = "#memberList"> Our Members </a>
       </div>
-        <div class = "hero primary">
-          <center>
+      <div class = "hero primary">
+        <center>
           <h1> Project GRFT </h1>
           <!-- We need an actual thing -->
-          <h3> Make corn cool </h3>
+          <h3> Make rice cool </h3>
         </center>
-        </div>
+      </div>
+    </div>
+
+    <div class = 'main'>
+      <div class = 'container'>
+        <center>
+          <div class = 'header' id = 'projectDescription'>
+            <h4> WHO WE ARE </h4>
+          </div>
+          <p>
+            <!-- This overview should probably be less technical to appeal to a more general audience. -->
+            We have evidence of a powerful anti-viral biologic (griffithsin, also known as GRFT) that has been shown to be effective against coronaviruses and other enveloped viruses in animal models.
+            We are forming a team to license it, biomanufacture it and deploy it globally via expression within genetically engineered rice.
+            Our work is multidisciplinary, including genetics, plant cell culture, hardware development, and law.
+          </p>
+          <!--
+          <img src = 'https://upload.wikimedia.org/wikipedia/commons/8/80/3ll2.png' alt = 'Griffithsin in complex with a high-mannose branched carbohydrate.'>
+          (From Wikipedia; requires attribution)
+          -->
+        </center>
       </div>
 
-      <div class = 'main'>
-        <div class = 'container'>
-          <center>
+      <div class = 'container'>
+        <center>
           <div class = 'header'>
-            <h4>WHO WE ARE</h4>
+            <h4> OUR PURPOSE </h4>
           </div>
-            <p> We have evidence of a powerful anti-viral biologic that has been shown to be effective against coronaviruses and other enveloped viruses in animal models.
-            We are forming a team to license it, biomanufacture and deploy it globally via expression within genetically engineered rice.
-            Our work is multidisciplinary, including genetics, plant cell culture, hardware development, and legal.
-            </p>
+          <p>
+            We aim to provide a material means to protect all people worldwide from coronaviruses, other enveloped viruses that are inhibited by GRFT and from emerging viruses.
+          </p>
         </center>
-        </div>
-
-        <div class = 'container'>
-          <center>
-          <div class = 'header'>
-            <h4>OUR PURPOSE</h4>
-          </div>
-            <p> We aim to provide a material means to protect all people worldwide from coronaviruses, other enveloped viruses that are inhibited by GRFT and from emerging viruses.
-            </p>
-        </center>
-        </div>
+      </div>
 
 
       <!--Our members-->
-    <div class = 'main'>
-      <center>
-      <h4> Meet Our Members </h4>
-      <ul style="list-style-type:none;">
-        <li>Sreeni Eadara </li>
-        <li> Other People </li>
-      </ul>
-    </center>
+      <div class = 'main'>
+        <center>
+          <h4 id = 'memberList'> Meet Our Members </h4>
+          <ul style="list-style-type:none;">
+            <li> Sreeni Eadara </li>
+            <li> Other People </li>
+          </ul>
+        </center>
 
     <!--<div class = 'main'>
-        <div class = 'column' style = 'float: left; width: 33.3%; margin-bottom: 16px; padding: 0 8px;'>
-          <div class = 'card'>
-            <div class='header'>
-              <h5> Sreeni Eadara </h5>
-            </div>
-            <div class = 'content'>
-              <p> Actually knows wtf is going on </p>
-            </div>
-          </div>
-
           <div class = 'column' style = 'float: left; width: 33.3%; margin-bottom: 16px; padding: 0 8px;'>
             <div class = 'card'>
               <div class='header'>
-                <h5> Other people </h5>
+                <h5> Sreeni Eadara </h5>
               </div>
               <div class = 'content'>
-                <p> We also exist </p>
+                <p> Actually knows wtf is going on </p>
               </div>
             </div>
-          </div>-->
 
-        </div>
+            <div class = 'column' style = 'float: left; width: 33.3%; margin-bottom: 16px; padding: 0 8px;'>
+              <div class = 'card'>
+                <div class='header'>
+                  <h5> Other people </h5>
+                </div>
+                <div class = 'content'>
+                  <p> We also exist </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>-->
+
       </div>
     </div>
+    <br>
+    <br>
   </body>
 </html>
